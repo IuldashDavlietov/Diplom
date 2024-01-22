@@ -1,0 +1,366 @@
+
+.singleProductCard {
+    max-width: 1024px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: calc(100% - 5rem);
+    margin: 0 auto;
+    
+}
+
+
+
+
+.categoriesPage_nav {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.nav_btn_mainPage {
+    width: 5rem;
+    height: 1.6rem;
+    border: 1px solid #DDD;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    color:  #8B8B8B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.72rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 126%
+}
+
+.nav_btn_mainPage:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.nav_line {
+    width: 0.7rem;
+    height: 1px;
+    background-color: #DDD;
+}
+
+.nav_btn_categories {
+    width: 5.8rem;
+    height: 1.6rem;
+    border: 1px solid #DDD;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    color:  #8B8B8B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.72rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 126%;
+
+}
+
+.nav_btn_categories:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.nav_btn_product {
+   
+    height: 1.6rem;
+    border: 1px solid #DDD;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    color:  black;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.72rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 126%;
+    padding: 0 0.5rem;
+}
+
+
+
+
+
+
+.singleProductCard_items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.singleProductCard_img {
+    width: 25rem;
+    height: 25.5rem;
+    border: 1px solid black;
+}
+
+.img_item {
+    width: 100%;
+    height: 100%;
+}
+
+.singleProductCard_info {
+    width: 25rem;
+   
+    display: flex;
+    flex-direction: column;
+}
+
+.headerFromProduct {
+    color:  #282828;
+    font-family: Montserrat;
+    font-size: 1.9rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: 0.075rem;
+    margin-bottom: 1.5rem;
+}
+
+.pricesFromProduct {
+    display: flex;
+    gap: 1.5rem;
+   
+    margin-bottom: 1.5rem;
+}
+
+.basicPrice {
+    color: #282828;
+    font-family: Montserrat;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.throughPrice {
+    display: flex;
+    padding-bottom: 0;
+    color:  #8B8B8B;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    text-decoration: line-through;
+}
+
+.throughPrice p {
+    align-items: end;
+}
+
+.prise_sale_none {
+    display: none;
+}
+
+.saleFromPrice {
+    width: 2.8rem;
+    height: 1.5rem;
+    background-color:#393;
+    border-radius: 0.25rem;
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+    letter-spacing: 0.0375rem;
+    text-align: center;
+    padding-top: 0.1rem;
+    
+}
+
+.prise_sale_none{
+    display: none;
+}
+
+.btns_from_cart {
+    display: flex;
+    margin-bottom: 1.5rem;
+    
+    
+}
+
+.btn_minus {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid #DDDDDD;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    transition: transform 500ms ease;
+}
+
+.btn_minus:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.btn_minus img {
+    width: 18px;
+    height: 18px;
+}
+
+.quantity_of_product {
+    width: 3.5rem;
+    height: 2.5rem;
+    text-align: center;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    padding-top: 0.5rem;
+    
+}
+
+
+.btn_plus {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid #DDDDDD;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    margin-right: 1.7rem;
+    transition: transform 500ms ease;
+}
+
+.btn_plus:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.btn_plus img {
+    width: 18px;
+    height: 18px;
+}
+
+
+.btn_addToCart {
+    width: 59%;
+    color:#fff;
+    border-radius: 0.25rem;
+    background-color: #393;
+    border: none;
+    transition: transform 500ms ease;
+}
+
+.btn_addToCart:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.description_items {
+    height: 100%;
+}
+
+.description_header {
+    color: #282828;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 1rem;
+}
+
+.text {
+    color:  #282828;
+    font-family: Montserrat;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+
+.read_more {
+    color:  #282828;
+    font-family: Montserrat;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    border: none;
+    background-color: #fff;
+    border-bottom: 1px solid #8B8B8B ;
+}
+.count{
+    display: flex;
+}
+
+
+@media (max-width: 768px){
+    .singleProductCard_img{
+        width: 20rem;
+        height: 21rem;
+    }
+    .singleProductCard_info{
+        width: 20rem;
+    }
+    .headerFromProduct{
+        font-size: 1.5rem;
+    }
+    .count{
+        display: flex;
+    }
+}
+
+@media (max-width: 400px){
+    .singleProductCard_img{
+        width: 9rem;
+        height: 10rem;
+    }
+    .singleProductCard_info{
+        width: 9rem;
+    }
+    .headerFromProduct{
+        font-size: 0.8rem;
+    }
+    .basicPrice{
+        font-size: 1.5rem;
+    }
+    .throughPrice{
+        font-size: 1rem;
+    }
+    .saleFromPrice{
+        font-size: 0.6rem;
+        width: 2rem;
+        height: 1rem;
+    }
+    .count{
+        display: flex;
+    }
+   
+    .btns_from_cart{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .btn_addToCart{
+        width: 8rem;
+        height: 2rem;
+    }
+    
+
+    .nav_btn_mainPage {
+        font-size: 0.7rem;
+    }
+    .nav_btn_categories {
+        font-size: 0.7rem;
+    }
+    .nav_btn_product {
+        font-size: 0.7rem;
+    }
+    .categoriesPage_nav{
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+}

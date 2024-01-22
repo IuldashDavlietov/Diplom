@@ -1,0 +1,94 @@
+.notFound_page {
+    margin-bottom: 3.5rem;
+}
+
+.item_404 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.9rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.icon4 {
+    width: 130px;
+}
+
+.kaktus_img {
+    width: 220px;
+}
+
+.notFound_h3 {
+    color: #282828;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    margin-bottom: 0.7rem;
+}
+
+.notFound_info {
+    width: 28rem;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+.notFound_text {
+    color: #8b8b8b;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.goHome_btn {
+    width: 9rem;
+    height: 2.62rem;
+    margin: 0 auto;
+}
+
+.notFound_btn {
+    width: 100%;
+    height: 100%;
+    background: #393;
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    border-radius: 0.35rem;
+    border: none;
+    cursor: pointer;
+    transition: transform 500ms ease;
+}
+
+.notFound_btn:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 400px) {
+    .icon4 {
+        width: 70px;
+    }
+    .kaktus_img {
+        width: 150px;
+    }
+    .notFound_h3 {
+        font-size: 2rem;
+    }
+    .notFound_info {
+        width: 20rem;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+    }
+    .notFound_text {
+        font-size: 0.7rem;
+    }
+}

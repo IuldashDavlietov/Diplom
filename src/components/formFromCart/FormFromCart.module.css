@@ -1,0 +1,56 @@
+
+
+
+
+.discountForm_form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    padding-top: 1.5rem;  
+}
+
+.discountForm_form input {
+    width: 100%;
+    height: 2.625rem;
+    border: 1px solid #DDD;
+    border-radius: 0.275rem;
+    background-color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    padding-left: 1.5rem; 
+}
+
+input::placeholder {
+    color: #8B8B8B;
+}
+
+.btn_submit {
+    width: 100%;
+    height: 2.625rem;
+    margin-top: 0.8rem;
+    border-radius: 0.275rem;
+    color:  #ffff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+    border: none;
+    background: #393;
+}
+
+.btn_submit:hover {
+    background: #282828;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.errors_text {
+    color: red;
+    font-size: 0.7rem;
+}

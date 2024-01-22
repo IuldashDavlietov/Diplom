@@ -1,0 +1,48 @@
+
+
+.emptyBasket {
+    margin-top: 1.9rem;
+    margin-bottom: 3.7rem;
+ }
+
+ .emptyBasket_none {
+   display: none;
+ }
+
+ .emptyBasket_text {
+    color:  #282828;
+    text-overflow: ellipsis;
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+ }
+
+ .emptyBasket_btn {
+    margin-top: 1.2rem;
+    width: 14.4rem;
+    height: 2.5rem;
+ }
+
+ .btn_backToShopping {
+    width: 100%;
+    height: 100%;
+    background-color: #393;
+    border-radius: 0.25rem;
+    border: none;
+
+    color:  #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    transition: transform 500ms ease;
+    cursor: pointer;
+ }
+
+ .btn_backToShopping:hover {
+    transform:scale(1.1);
+ }

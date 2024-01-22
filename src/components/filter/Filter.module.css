@@ -1,0 +1,138 @@
+.productsPage_filter {
+    max-width: 100%;
+    display: flex;
+    margin-top: 1.8rem;
+    align-items: center;
+}
+
+.filter_price {
+    color: #282828;
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+    margin-right: 1rem;
+}
+
+.inp_from {
+    width: 5rem;
+    height: 1.6rem;
+    border: 1px solid #DDD;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    margin-right: 0.8rem;
+    
+}
+
+.inp_from::placeholder {
+    color:  #8B8B8B;
+    font-family: Montserrat;
+    font-size: 0.72rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 126%;
+    padding-left: 0.7rem;
+    
+}
+
+.inp_to {
+    width: 5rem;
+    height: 1.6rem;
+    border: 1px solid #DDD;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    margin-right: 1.9rem;
+}
+
+.inp_to::placeholder {
+    color:  #8B8B8B;
+    font-family: Montserrat;
+    font-size: 0.72rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 126%;
+    padding-left: 0.7rem;
+}
+
+.label_discount {
+    color: #282828;
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+    margin-right: 0.5rem;
+}
+
+.inp_checkbox {
+    width: 2rem;
+    height: 1.5rem;
+    border: 1px solid #DDD;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    margin-right: 1.9rem;
+}
+
+input.inp_checkbox:checked {
+    background-color: black;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+}
+.discountedItems{
+    display: flex;
+    align-items: center;
+}
+.sorted{
+    display: flex;
+    align-items: center;
+}
+
+.label_sort {
+    color: #282828;
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+    margin-right: 0.5rem;
+}
+
+.select_sort {
+    width: 9rem;
+    height: 1.6rem;
+    border: 1px solid #DDD;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    padding-left: 0.5rem;
+    color: #282828;
+    font-family: Montserrat;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 126%;
+}
+
+@media (max-width: 400px){
+    .productsPage_filter{
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+        gap: 1rem;
+    }
+    .price{
+        display: flex;
+        align-items: flex-end;
+    }
+    .discountedItems{
+        display: flex;
+        align-items: flex-end;
+    }
+    .sorted{
+        display: flex;
+        align-items: flex-end;
+    }
+}
