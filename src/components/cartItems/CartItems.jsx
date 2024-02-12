@@ -40,6 +40,7 @@ function CartItems() {
   let count = calculateCartCount(list);
 
   const [isModalOpen, setModalOpen] = useState(false);
+let array = useState(false)
 
   const handleCloseModal = () => {
     setModalOpen(false);
@@ -103,5 +104,4 @@ function CartItems() {
     </section>
   );
 }
-
 export default CartItems;

@@ -22,8 +22,6 @@
     align-items: center;
 }
 
-
-
 .nav_btn_mainPage {
     width: 5rem;
     height: 1.6rem;
@@ -65,11 +63,11 @@
     line-height: 126%
 }
 
-
 .categoriesPage_wrapper {
     max-width: 100%;
     margin-top: 1.5rem;
 }
+
 .h2_text {
     color:  #282828;
     font-family: Montserrat;
